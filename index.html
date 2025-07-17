@@ -1,42 +1,117 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
     <head>
-        <title>Rickroll Game
-        </title>
-        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Subjective Trivia!</title>
+        <script src="script.js"></script>
     </head>
-
     <body>
-      <h1>Welcome! :)</h1>
-      <p>Welcome to <strong><em>The Rickroll Game!!!</strong></em><br>
-      This is probably one of the greatest possible ways to rickroll someone!<br>
-    Here are the instructions (read <u>all</u> the instructions before playing!) :</p>
-<br>
-    <ol>
-    <li>Look down at the the ten links (purple words).</li>
-    <li>Pick a link and click it.</li>
-    <li>Wait until the redirection finishes.</li>
-    <li><b>IF</b> you get a rickroll, you <b>MUST</b> watch <i><u>at least</u></i> 20 seconds of the rickroll to acknowledge how badly you were routed by me.</li>
-      <li>There is a 1/10 chance of winning on your first try.</li>
-      <li>Record how many times you got rickrolled.</li>
-      <li>Have fun getting rickrolled!  >:)</li>
-    </ol>
-<hr>
-<ul>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://scratch.mit.edu/projects/613852147/">here</a></li>
-<li>The other links are rickrolls, so click <a href="https://youtu.be/dQw4w9WgXcQ">here</a></li>
-</ul>
+        <div class="header">
+            <h1>🎉✨Subjective Trivia!✨🎉</h1>
+            <h2>A trivia webpage that asks highly unfair and non-objective questions (except the last one).</h2>
+            <h2>Why did you visit this obviously frivolous page? Don't ask me.</h2>
+        </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Which language that CS50 has covered is the best?</h3>
+                <button class="mwrong">C</button>
+                <button class="mright">Python</button>
+                <button class="mwrong">Scratch</button>
+                <button class="mwrong">SQL</button>
+                <button class="mwrong">Javascript</button>
+                <button class="mwrong">HTML</button>
+            </div>
+            <div class="section">
+                <h3>Which fast food restaurant is the best?</h3>
+                <button class="mwrong2">Tim Hortons</button>
+                <button class="mwrong2">Wendy's</button>
+                <button class="mright2">MacDonald's</button>
+                <button class="mwrong2">Burger King</button>
+                <button class="mwrong2">KFC</button>
+            </div>
+            <div class="section">
+                <h3>Which mathematician was the best?</h3>
+                <button class="mright3">Euler</button>
+                <button class="mwrong3">Gauss</button>
+                <button class="mwrong3">Pascal</button>
+                <button class="mwrong3">Laplace</button>
+                <button class="mwrong3">Galois</button>
+                <button class="mwrong3">Fourier</button>
+                <button class="mwrong3">Guy who made Hairy Ball Theorem</button>
+            </div>
+            <div class="section">
+                <h3>Which hot drink is the best?</h3>
+                <button class="mwrong4">Coffee</button>
+                <button class="mwrong4">Hot Chocolate</button>
+                <button class="mright4">Tea</button>
+            </div>
+            <div class="section">
+                <h3>Which cold drink is the best?</h3>
+                <button class="mwrong5">Coke</button>
+                <button class="mwrong5">Sprite</button>
+                <button class="mright5">Iced tea</button>
+                <button class="mwrong5">Canadian (sweetened) iced tea</button>
+                <button class="mwrong5">Ginger ale</button>
+                <button class="mwrong5">H2O</button>
+                <button class="mwrong5">H2SO4</button>
+                <button class="mwrong5">C169723H270464N45688O52243S912</button>
+            </div>
+            <div class="section">
+                <h3>Which subject is the best?</h3>
+                <button class="mwrong6">Social Studies</button>
+                <button class="mwrong6">English related courses</button>
+                <button class="mwrong6">French</button>
+                <button class="mright6">Math</button>
+                <button class="mwrong6">Science</button>
+                <button class="mwrong6">Comp sci</button>
+                <button class="mwrong6">PHE</button>
+            </div>
 
-
- </body>
+            <div class="section">
+                <h2>Part 2: Free Response (Case sensitive)</h2>
+                <hr>
+                 <h3>Who is the best musical composer? (Full name)</h3>
+                 <form onsubmit="return false;">
+                    <input type="text" id="submitter" autocomplete="off">
+                 </form>
+                 <button id="submit">Confirm</button>
+                 <p id="fans"></p>
+            </div>
+            <div class="section">
+                 <h3>What is the best mathematical identity? (Full name)</h3>
+                 <form onsubmit="return false;">
+                    <input type="text" id="submitter2" autocomplete="off">
+                 </form>
+                 <button id="submit2">Confirm</button>
+                 <p id="fans2"></p>
+            </div>
+            <div class="section">
+                 <h3>What is the best emoji? (Input emoji)</h3>
+                 <form onsubmit="return false;">
+                    <input type="text" id="submitter3" autocomplete="off">
+                 </form>
+                 <button id="submit3">Confirm</button>
+                 <p id="fans3"></p>
+            </div>
+            <div class="section">
+                 <h3>Define F(ω) of the frequency domain to be the complex-valued function obtained by applying the Fourier transform ℱ(f(t)), defined as ∫f(t)e^(-jωt)dt, where j^2=-1, with bounds of (-∞,∞), to the real-valued function, f(t) of the time domain.
+                 If af(t)=bcos(ct), {a,b,c}⊆ℕ, how many values (to the nearest tenths) of ω satisfy the following equation:</h3>
+                 <h3>|F(ω)|≠0</h3>
+                 <form onsubmit="return false;">
+                    <input type="text" id="submitter4" autocomplete="off">
+                 </form>
+                 <button id="submit4">Confirm</button>
+                 <p id="fans4"></p>
+            </div>
+            <div class="section">
+                <h1>Score</h1>
+                <h2 id="sc">0/10</h2>
+            </div>
+        </div>
+    </body>
 </html>
