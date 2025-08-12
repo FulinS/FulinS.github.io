@@ -1,0 +1,56 @@
+body {
+    color: White;
+    background-color: Black;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+main {
+    font-size: 3vh;
+}
+
+
+#buttons{
+    text-align: center;
+}
+
+
+.header {
+    background-color: Black;
+    color: rgb(29, 204, 75);
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20vh;
+}
+
+.footer{
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(29, 204, 75);
+}
+
+.buttonAnchor {
+
+    background-color: Black;
+    color: rgb(29, 204, 75);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 8vw;
+    height: auto;
+    font-size: 2vw;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+

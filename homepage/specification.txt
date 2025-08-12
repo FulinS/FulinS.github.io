@@ -1,0 +1,26 @@
+HTML tags:
+    1. <div>
+    2. <button>
+    3. <img>
+    4. <header>
+    5. <main>
+    6. <h3>
+    7. <h2>
+    8. <h1>
+    9. <hr>
+    10. <p>
+
+CSS properties:
+    1. height
+    2. background-color
+    3. color
+    4. border
+    5. font-size
+
+Javascript:
+I used Javscript to make an interactive topbar, where users can click buttons
+to navigate through my site.
+
+Bootstrap:
+I chose to use the carousel feature from Bootstrap to showcase multiple images of
+my interests (memes, chess, coding).
