@@ -77,7 +77,6 @@ function main(){
                 const row = document.createElement("tr");
                 table.appendChild(row);
             }
-            /* AI provided syntax for how to create HTML elements in JS*/
             const cell = document.createElement("td");
             const button = document.createElement("button");
             button.id = `-${5-parseInt(counter[1])}${parseInt(counter[0])+1}${t}${f}`;
@@ -96,7 +95,6 @@ function main(){
                 f.forEach(f=>{
                     f.style.opacity="1";
                 });
-                /* AI provided the name for opacity property */
                 this.style.opacity="0.6";
                 dimensions[0]=this.id[2];
                 document.querySelector("#tellUserDimensions3").innerHTML="3d layer: "+dimensions[0];
@@ -164,12 +162,10 @@ function main(){
 
         }
 
-        /*AI created arraysEqual function */
         function arraysEqual(a, b) {
         return a.length === b.length && a.every((val, index) => val === b[index]);
         }
 
-        /* AI taught slice method */
         function check1d(dim, currentElement, warray){
             let checkArray=warray[currentElement].slice();
             checkArray[dim]=String(Number(checkArray[dim])+1);
