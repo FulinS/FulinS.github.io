@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function(){
     //free response
     function FDisp(x){
         let response=document.querySelector("#submitter").value;
-        if (response=="PDQ Bach"||response=="P.D.Q. Bach"){
+        if (response=="Moritz Moszkowski"||response=="Moszkowski"){
             total+=1;
             document.querySelector("#submitter").style.borderColor="Green";
             document.querySelector("#fans").style.color="Green";
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function(){
             document.querySelector("#fans").style.color="Red";
         }
         document.querySelector("#submitter").disabled=true;
-        document.querySelector("#fans").innerHTML="PDQ Bach";
+        document.querySelector("#fans").innerHTML="Moritz Moszkowski";
     }
     function FDisp2(x){
         let response=document.querySelector("#submitter2").value;
