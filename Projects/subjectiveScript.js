@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function(){
     //free response
     function FDisp(x){
         let response=document.querySelector("#submitter").value;
-        if (response=="Moritz Moszkowski"||response=="Moszkowski"){
+        if (response=="Moritz Moszkowski"){
             total+=1;
             document.querySelector("#submitter").style.borderColor="Green";
             document.querySelector("#fans").style.color="Green";
